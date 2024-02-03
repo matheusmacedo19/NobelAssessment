@@ -1,0 +1,46 @@
+-->Login Instances
+
+---Login Instance 1---
+<2023-12-05T16:05:13.398 00 tech_jwrenn@Agent[4c30]> [2::0x170E] Event: Eventname: "AgentLoggedInEvent" agentId: "100000039" login: "tech_jwrenn" eCausaCambioEstado: "10"   [AgenteStateManager::OnAgenteLoggedIn]
+
+<2023-12-05T16:05:13.398 00 tech_jwrenn@Agent[4c30]> [2::0x170E] Event: Eventname: "AgentLoggedInEvent" agentId: "100000039" login: "tech_jwrenn" eCausaCambioEstado: "10"   context:[id: "0x170E" invoke: "2" user: "" correlation_id: "AG/IniciarSesionAgente/2/0x170E" start_time: "2023-12-06T00:05:13Z" ] [AgenteStateManager::OnAgenteLoggedIn]
+
+<2023-12-05T16:05:14.834 00 GesMar[4c30]> [9:tech_jwrenn:0x171D] El agente 100000039[tech_jwrenn] se ha logado.
+
+---Login Instance 2---
+
+<2023-12-05T16:45:14.198 00 tech_jwrenn@Agent[5304]> [2::0x34E3] Event: Eventname: "AgentLoggedInEvent" agentId: "100000039" login: "tech_jwrenn" eCausaCambioEstado: "10"   [AgenteStateManager::OnAgenteLoggedIn]
+
+<2023-12-05T16:45:14.198 00 tech_jwrenn@Agent[5304]> [2::0x34E3] Event: Eventname: "AgentLoggedInEvent" agentId: "100000039" login: "tech_jwrenn" eCausaCambioEstado: "10"   context:[id: "0x34E3" invoke: "2" user: "" correlation_id: "AG/IniciarSesionAgente/2/0x34E3" start_time: "2023-12-06T00:45:14Z" ] [AgenteStateManager::OnAgenteLoggedIn]
+
+<2023-12-05T16:45:15.824 00 GesMar[582c]> [9:tech_jwrenn:0x34EA] El agente 100000039[tech_jwrenn] se ha logado.
+
+-->Licenses
+
+Detailed Agent Licenses: == TOTALES == Basicas: 1, Telefonia: 1, Marcador: 0, Grabacion: 1, Email: 0
+
+
+-->Logout
+
+---Instance 1---
+<2023-12-05T16:05:07.563 00 CGalProc[760]> [19:tech_jwrenn:0x16F9] Agente 100000039 [id:100000039] deslogado.
+<2023-12-05T16:05:07.813 00 GesMar[457c]> [21::0x16FB] El agente 100000039[tech_jwrenn] se ha deslogado.
+
+---Instance 2---
+<2023-12-05T16:14:52.068 00 CGalProc[760]> [40::0x1E5F] Agente 100000039 [id:100000039] deslogado.
+<2023-12-05T16:14:52.082 00 GesMar[32c4]> [40::0x1E5F] El agente 100000039[tech_jwrenn] se ha deslogado.
+
+---Instance 3---
+<2023-12-05T16:45:27.174 00 CGalProc[4f50]> [29:tech_jwrenn:0x3529] Agente 100000039 [id:100000039] deslogado.
+<2023-12-05T16:45:27.205 00 GesMar[2fc0]> [31::0x352B] El agente 100000039[tech_jwrenn] se ha deslogado.
+
+--> Dispositon of Transaction, or where the idFinal was set to
+
+---Instance 1---
+<2023-12-05T16:08:35.959 00 tech_jwrenn@Coord[2fc0]> [25:tech_jwrenn:0x19AA] Transacci n 100000014 finalizada (idFinal=9, Replan=NO, ProxCont=(empty), lIntervalo=60, lCuota=0)
+
+---Instance 2---
+<2023-12-05T16:11:36.125 00 tech_jwrenn@Coord[9d0]> [38:tech_jwrenn:0x1BF3] Transacci n 100000015 finalizada (idFinal=1, Replan=NO, ProxCont=(empty), lIntervalo=60, lCuota=0)
+
+---Instance 3---
+<2023-12-05T16:45:25.940 00 tech_jwrenn@Coord[457c]> [27:tech_jwrenn:0x351A] Transacción 100000016 finalizada (idFinal=9, Replan=NO, ProxCont=(empty), lIntervalo=60, lCuota=0)
